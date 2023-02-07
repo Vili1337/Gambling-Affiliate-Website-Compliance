@@ -10,7 +10,7 @@ if ($country == "US") {
 
 // Canada = CA
 elseif ($country == "CA") {
-  return "19+ | 18+ in AB, MB, & QC | Play Responsibly | Responsiblegambling.org";}
+  return "19+ | 18+ in AB, MB, & QC | Gambling can be addictive, please play responsibly. | Responsiblegambling.org";}
   
 /* #################### CIS COUNTRIES & UKRAINE & GEORGIA #################### */
 // Ukraine = UA
@@ -25,11 +25,11 @@ elseif ($country == "RU") {
 
 // Kazakhstan = KZ (text in Russian language)
 elseif ($country == "KZ") {
-  return "18+ | Азартные игры могут вызывать зависимость. Пожалуйста, играй ответственно.";}  
+  return "18+ | Азартные игры могут вызывать зависимость. Пожалуйста, играй ответственно. | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}  
   
 // Georgia = GE
 elseif ($country == "GE") {
-  return "18+ | ითამაშე პასუხისმგებლობით.";}
+  return "18+ | ითამაშე პასუხისმგებლობით. | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
   
 /* #################### AUSTRALIA & OCEANIA #################### */
 // Australia = AU 
@@ -48,11 +48,11 @@ elseif ($country == "BR") {
 
 // Chile = CL
 elseif ($country == "CL") {
-  return "18+ | Por favor, juega con responsabilidad. | Corporacionjuegoresponsable.cl";}
+  return "18+ | Por favor, juega con responsabilidad. | Corporacionjuegoresponsable.cl | <a href=\"https://www.gamblingtherapy.org/es/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Colombia = CO
 elseif ($country == "CO") {
-  return "18+ | Juega responsablemente | Juegabien.co";}
+  return "18+ | Juega responsablemente | Juegabien.co | <a href=\"https://www.gamblingtherapy.org/es/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Argentina = AR
 elseif ($country == "AR") {
@@ -60,11 +60,11 @@ elseif ($country == "AR") {
   
 // Mexico = MX
 elseif ($country == "MX") {
-  return "18+ | Por favor, juega con responsabilidad. | Jugadoresanonimos.org";}
+  return "18+ | Por favor, juega con responsabilidad. | Jugadoresanonimos.org | <a href=\"https://www.gamblingtherapy.org/es/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Peru = PE
 elseif ($country == "PE") {
-  return "18+ | El juego puede ser adictivo. Por favor, juega con responsabilidad. | Juegoresponsable.pe";}
+  return "18+ | El juego puede ser adictivo. Por favor, juega con responsabilidad. | Juegoresponsable.pe | <a href=\"https://www.gamblingtherapy.org/es/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 /* #################### ASIA & MIDDLE EAST #################### */
 // Japan = JP
@@ -73,19 +73,19 @@ elseif ($country == "JP") {
 
 // India = IN
 elseif ($country == "IN") {
-  return "18+ | Gambling can be addictive. Please play responsibly. | जुआ व्यसनी हो सकता है। जिम्मेदारी से खेलें। | Begambleaware.org";}
+  return "18+ | Gambling can be addictive. Please play responsibly. | जुआ व्यसनी हो सकता है। जिम्मेदारी से खेलें। | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Thailand = TH
 elseif ($country == "TH") {
-  return "18+ | การเดิมพันอาจก่อให้เกิดอาการเสพติด โปรดเล่นอย่างมีความรับผิดชอบ | Begambleaware.org";}	
+  return "18+ | การเดิมพันอาจก่อให้เกิดอาการเสพติด โปรดเล่นอย่างมีความรับผิดชอบ | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}	
 
 // Vietnam = VI
 elseif ($country == "VI") {
-  return "18+ | Chơi có trách nhiệm | <a href=\"https://www.gamblingtherapy.org/vi/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
+  return "18+ | Cờ bạc có thể gây nghiện. Hãy chơi có trách nhiệm. | <a href=\"https://www.gamblingtherapy.org/vi/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Taiwan = TW
 elseif ($country == "TW") {
-  return "18+ | 博彩可能讓人上癮";}
+  return "18+ | 博彩可能讓人上癮 | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // China = CN
 elseif ($country == "CN") {
@@ -99,7 +99,10 @@ elseif ($country == "KR") {
 elseif ($country == "TR") {
   return "18+ | Şans oyunları bağımlılık yapabilir, lütfen bilinçli oynayınız. | <a href=\"https://www.gamblingtherapy.org/tr/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
-// Indonesia https://www.gamblingtherapy.org/id/  
+// Indonesia https://www.gamblingtherapy.org/id/
+// Malaysia
+// Philippines
+// United Arab Emirates
 
 /* #################### AFRICA #################### */
 // South Africa = ZA
@@ -130,7 +133,7 @@ elseif ($country == "NG") {
 // https://www.spillemyndigheden.dk/uploads/2020-01/The%20Danish%20Gambling%20Authority%E2%80%99s%20guide%20on%20sales%20promoting%20arrangements.pdf
 // https://www.spillemyndigheden.dk/uploads/2020-07/The%20Danish%20Gambling%20Authority%E2%80%99s%20guide%20on%20duty%20of%20disclosure%20when%20marketing%20and%20advertising%20gambling.pdf
 elseif ($country == "DK") {
-  return "18+ | Spil ansvarligt! | Kontakt Spillemyndighedens hjælpelinje på StopSpillet.dk – Ring til +45 70 22 28 25 | Udeluk dig via ROFUS.nu | <a href=\"https://www.gamblingtherapy.org/da/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}  
+  return "18+ | Spil ansvarligt! | Kontakt Spillemyndighedens hjælpelinje på StopSpillet.dk – Ring til +45 70 22 28 25 | Udeluk dig via ROFUS.nu | Ludomani.dk | <a href=\"https://www.gamblingtherapy.org/da/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}  
 
 // Finland = FI
 // T&C's Apply: Säännöt ja ehdot voimassa
@@ -142,7 +145,7 @@ elseif ($country == "FI") {
 elseif ($country == "NO") {
   return "18+ | Spill ansvarlig | Hjelpelinjen.no | <a href=\"https://www.gamblingtherapy.org/no/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
-// Sweden = SE
+// Sweden = SE https://www.stodlinjen.se/
 // Commercial content: Kommersiellt innehåll
 // T&C's Apply: Regler & villkor gäller
 // New Customers Only: Endast nya kunder
@@ -177,12 +180,17 @@ elseif ($country == "AT") {
 elseif ($country == "CH") {
   return "18+ | Glücksspiel kann süchtig machen. Spielen Sie verantwortungsvoll. | www.sos-jeu.ch | www.sos-spielsucht.ch | <a href=\"https://www.gamblingtherapy.org/de/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
+// Liechtenstein = LI
+elseif ($country == "LI") {
+  return "18+ | Glücksspiel kann süchtig machen. Spiele verantwortungsvoll. | <a href=\"https://www.gamblingtherapy.org/de/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
+  
 // Germany = DE
 // T&C's Apply: AGB gelten
 elseif ($country == "DE") {
-  return "18+ | Spiele verantwortungsvoll | Glücksspiel kann süchtig machen | www.bzga.de | <a href=\"https://www.gamblingtherapy.org/de/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
+  return "18+ | Glücksspiel kann süchtig machen. Spiele verantwortungsvoll. | Hilfe finden Sie auf www.bzga.de | <a href=\"https://www.gamblingtherapy.org/de/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
   
 // Belgium = BE
+// Alternative text: Le jeu peut être addictif. Jouez de manière responsable.
 elseif ($country == "BE") {
   return "21+ | Speel Verantwoord | Gokhulp.be";}
 
@@ -193,7 +201,7 @@ elseif ($country == "NL") {
 /* #################### EUROPE #################### */
 // Czechia = CZ
 elseif ($country == "CZ") {
-  return "18+ | Hraj s uvážením | Hazardni-hrani.cz | <a href=\"https://www.gamblingtherapy.org/cs/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
+  return "18+ | Hraj s uvážením | <a href=\"https://www.hazardni-hrani.cz\" rel=\"nofollow\" target=\"_blank\">Hazardni-hrani.cz</a> | <a href=\"https://www.gamblingtherapy.org/cs/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Spain = ES
 // T&C's Apply: Aplican Términos y Condiciones
@@ -218,7 +226,7 @@ elseif ($country == "HR") {
 // Alternative text: Hazard może uzależniać, graj odpowiedzialnie.
 elseif ($country == "HU") {
   return "18+ | A szerencsejáték függőséget okozhat. Kérjük, játsszon felelősségteljesen. | <a href=\"https://www.gamblingtherapy.org/hu/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
-
+  
 // Ireland = IE
 elseif ($country == "IE") {
   return "18+ | Gamble responsibly | Gamblingcare.ie | Problemgambling.ie | GamblingAwarenessTrust.ie";}
@@ -231,13 +239,13 @@ elseif ($country == "IT") {
 // Malta = MT
 // https://www.mga.org.mt/wp-content/uploads/Commercial-Communications-Committee-Guidelines.pdf
 elseif ($country == "MT") {
-  return "18+ | Play responsibly | rgf.org.mt";}
+  return "18+ | Play responsibly | rgf.org.mt | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Poland = PL
 // Commercial content: Strona zawiera treści reklamowe
 elseif ($country == "PL") {
-  return "18+ | Graj odpowiedzialnie | Anonimowihazardzisci.org | <a href=\"https://www.gamblingtherapy.org/pl/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
-
+  return "18+ | Hazard może uzależniać. Graj odpowiedzialnie. | Anonimowihazardzisci.org | <a href=\"https://www.gamblingtherapy.org/pl/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
+  
 // Portugal = PT
 // T&C's Apply: Aplicam-se Termos & condições
 // Alternative text: Jogar pode ser viciante. Jogue com responsabilidade.
@@ -250,22 +258,21 @@ elseif ($country == "RO") {
   
 // Slovenia = SL
 elseif ($country == "SL") {
-  return "18+ | Igranje iger na srečo lahko povzroči zasvojenost, prosimo, igrajte odgovorno.";}
+  return "18+ | Igranje iger na srečo lahko povzroči zasvojenost, prosimo, igrajte odgovorno. | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Serbia = RS
 // Commercial content: Komercijalni sadržaj
 elseif ($country == "RS") {
-  return "18+ | Klađenje može izazvati zavisnost. Igrajte odgovorno. | Drajzerova.org.rs";}
-
-// Bulgaria https://www.gamblingtherapy.org/bg/
+  return "18+ | Klađenje može izazvati zavisnost. Igrajte odgovorno. | <a href=\"https://drajzerova.org.rs\" rel=\"nofollow\" target=\"_blank\">Drajzerova.org.rs</a>";}  
   
+// Bulgaria = BG
+elseif ($country == "BG") {
+  return "18+ | Хазартните игри могат да са пристрастяващи. Играйте отговорно. | <a href=\"https://www.gamblingtherapy.org/bg/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
+
 // United Kingdom = GB & UK
-// http://www.gamblingcommission.gov.uk/for-gambling-businesses/Compliance/General-compliance/Social-responsibility/Advertising-marketing-rules-and-regulations.aspx.
-// https://www.asa.org.uk/uploads/assets/uploaded/ce3923e7-94ff-473b-ad2f85f69ea24dd8.pdf
-// https://www.asa.org.uk/uploads/assets/uploaded/b6a021eb-2525-40e1-9c44eb6eab1f6797.pdf
-// https://www.asa.org.uk/uploads/assets/uploaded/734c1499-850d-4d2f-88a441ffd1903b50.pdf
+// New UK players only
 elseif ($country == "GB" || $country == "UK") {
-  return "18+ | Play Responsibly | BeGambleAware.org | taketimetothink.co.uk | gamstop.co.uk | gamcare.org.uk | gamblersanonymous.org.uk";}
+  return "18+ | Play Responsibly | <a href=\"https://www.begambleaware.org\" rel=\"nofollow\" target=\"_blank\">BeGambleAware.org</a> | <a href=\"https://www.taketimetothink.co.uk\" rel=\"nofollow\" target=\"_blank\">taketimetothink.co.uk</a> | <a href=\"https://www.gamstop.co.uk\" rel=\"nofollow\" target=\"_blank\">gamstop.co.uk</a> | <a href=\"https://www.gamcare.org.uk\" rel=\"nofollow\" target=\"_blank\">gamcare.org.uk</a> | <a href=\"https://www.gamblersanonymous.org.uk\" rel=\"nofollow\" target=\"_blank\">gamblersanonymous.org.uk</a>";}
 
 /* #################### REST OF WORLD #################### */
 // Restricted countries, wagering requirements & full T&C's apply
@@ -273,7 +280,7 @@ elseif ($country == "GB" || $country == "UK") {
 // New players only
 // #AD Commercial Content
 else {
-  return "18+ (or min. legal age, depending on the region) | Gambling can be addictive, please play responsibly | BeGambleAware.org";}
+  return "18+ (or min. legal age, depending on the region) | Gambling can be addictive, please play responsibly | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 }
 add_shortcode('responsible_gambling', 'responsible_gambling_shortcode');
 ?>
