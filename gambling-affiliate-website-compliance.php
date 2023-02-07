@@ -263,8 +263,8 @@ elseif ($country == "PT") {
 elseif ($country == "RO") {
   return "18+ | Jocurile de noroc pot crea dependență. Joacă Responsabil. | <a href=\"https://jocresponsabil.ro\" rel=\"nofollow\" target=\"_blank\">Jocresponsabil.ro</a> | <a href=\"https://www.gamblingtherapy.org/ro/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
   
-// Slovenia = SL
-elseif ($country == "SL") {
+// Slovenia = SI
+elseif ($country == "SI") {
   return "18+ | Igranje iger na srečo lahko povzroči zasvojenost, prosimo, igrajte odgovorno. | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Serbia = RS
