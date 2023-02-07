@@ -49,15 +49,19 @@ elseif ($country == "AU") {
   return "18+ | Chances are you’re about to lose. Please play responsibly | Gambling Problem? Call 1800 858 858 or visit <a href=\"https://www.gamblinghelponline.org.au\" rel=\"nofollow\" target=\"_blank\">Gamblinghelponline.org.au</a>";}
   
 // New Zealand = NZ
+// https://www.pgf.nz
+// https://www.safergambling.org.nz
 elseif ($country == "NZ") {
   return "18+ | Gambling can be addictive, please play responsibly | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 /* #################### LATAM #################### */
 // Brazil = BR
+// https://jogadoresanonimos.com.br
 elseif ($country == "BR") {
   return "18+ | Os jogos de azar podem ser viciantes. Por favor, jogue de forma responsável. | <a href=\"https://www.gamblingtherapy.org/pt-br/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Chile = CL
+// https://jugadoresanonimos.cl
 elseif ($country == "CL") {
   return "18+ | Por favor, juega con responsabilidad. | <a href=\"https://www.gamblingtherapy.org/es/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
   
@@ -66,6 +70,7 @@ elseif ($country == "CO") {
   return "18+ | Juega responsablemente | <a href=\"https://www.gamblingtherapy.org/es/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Argentina = AR
+// https://jugadoresanonimos.org.ar
 elseif ($country == "AR") {
   return "18+ | Jugá con responsabilidad | <a href=\"https://www.gamblingtherapy.org/es/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
   
@@ -83,6 +88,7 @@ elseif ($country == "JP") {
   return "18+ | ギャンブルには中毒性があります。責任を持ってプレイしてください。| <a href=\"https://www.gamblingtherapy.org/ja/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}  
 
 // India = IN
+// https://hopetrustindia.com/
 elseif ($country == "IN") {
   return "18+ | Gambling can be addictive. Please play responsibly. | जुआ व्यसनी हो सकता है। जिम्मेदारी से खेलें। | <a href=\"https://www.gamblingtherapy.org\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
@@ -112,7 +118,9 @@ elseif ($country == "TR") {
 
 // Indonesia https://www.gamblingtherapy.org/id/
 // Malaysia
-// Philippines
+// Singapore https://www.ncpg.org.sg
+// Hongkong http://www.gamblercaritas.org.hk/
+// Philippines https://www.in-touch.org/
 // United Arab Emirates
 
 /* #################### AFRICA #################### */
