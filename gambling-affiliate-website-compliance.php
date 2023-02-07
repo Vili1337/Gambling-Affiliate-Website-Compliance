@@ -104,20 +104,24 @@ elseif ($country == "TR") {
 /* #################### AFRICA #################### */
 // South Africa = ZA
 elseif ($country == "ZA") {
-  return "21+ | Play Responsibly | responsiblegambling.org.za";}
+  return "21+ | Play Responsibly | responsiblegambling.org.za | <a href=\"https://www.gamblingtherapy.org/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Kenya = KE
 elseif ($country == "KE") {
-  return "18+ | Play Responsibly | Gamhelpkenya.com";}
+  return "18+ | Play Responsibly | Gamhelpkenya.com | <a href=\"https://www.gamblingtherapy.org/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
   
 // Ghana = GH
 elseif ($country == "GH") {
-  return "18+ | Play Responsibly | BeGambleAware.org";}
+  return "18+ | Play Responsibly | <a href=\"https://www.gamblingtherapy.org/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
 // Nigeria = NG
 elseif ($country == "NG") {
-  return "18+ | Play Responsibly | BeGambleAware.org";}
- 
+  return "18+ | Gambling can be addictive, please play Responsibly. | <a href=\"https://www.gamblingtherapy.org/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
+
+// Uganda = NG
+elseif ($country == "NG") {
+  return "18+ | Gambling can be addictive and psychologically harmful. Please play Responsibly. | <a href=\"https://www.gamblingtherapy.org/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
+  
 /* #################### EUROPE – NORDIC COUNTRIES #################### */
 // Denmark = DK 
 // T&C's Apply: Regler og vilkår gælder
