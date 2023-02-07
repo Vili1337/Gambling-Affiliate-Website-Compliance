@@ -3,10 +3,9 @@
 A simple WordPress shortcode [responsible_gambling] that displays a localized age limit, "Gambling can be addictive, please play responsibly" text,
 and link to local gambling helpline(s) AND/OR gamblingtherapy.org based on the user's location.
 
-- Uses Cloudflare's CF-IPCountry request header to identify the user's location.
--- https://support.cloudflare.com/hc/en-us/articles/200168236-Configuring-IP-geolocation
-- All external links are HTTPS, rel="nofollow" and target="_blank".
 - Covers 57 countries!
+- Uses Cloudflare's CF-IPCountry request header to identify the user's location (https://support.cloudflare.com/hc/en-us/articles/200168236-Configuring-IP-geolocation)
+- All external links are HTTPS, rel="nofollow" and target="_blank".
 - The script can also be used as part of a custom Wordpress plugin or theme.
 */
 
