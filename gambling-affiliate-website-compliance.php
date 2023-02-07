@@ -132,8 +132,8 @@ elseif ($country == "GH") {
 elseif ($country == "NG") {
   return "18+ | Gambling can be addictive, please play Responsibly. | <a href=\"https://www.gamblingtherapy.org/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
-// Uganda = NG
-elseif ($country == "NG") {
+// Uganda = UG
+elseif ($country == "UG") {
   return "18+ | Gambling can be addictive and psychologically harmful. Please play Responsibly. | <a href=\"https://www.gamblingtherapy.org/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
   
 /* #################### EUROPE – NORDIC COUNTRIES #################### */
@@ -145,6 +145,7 @@ elseif ($country == "DK") {
 // Finland = FI
 // T&C's Apply: Säännöt ja ehdot voimassa
 // Commercial content: Kaupallinen sisältö
+// New players only: Vain uusille pelaajille
 elseif ($country == "FI") {
   return "18+ | Pelaa vastuullisesti | <a href=\"https://www.peluuri.fi\" rel=\"nofollow\" target=\"_blank\">Peluuri.fi</a> | <a href=\"https://www.gamblingtherapy.org/fi/\" rel=\"nofollow\" target=\"_blank\">Gamblingtherapy.org</a>";}
 
