@@ -6,6 +6,8 @@ and link to local gambling helpline(s) AND/OR gamblingtherapy.org based on the u
 - Covers 57 countries!
 - Uses Cloudflare's CF-IPCountry request header to identify the user's location (https://support.cloudflare.com/hc/en-us/articles/200168236-Configuring-IP-geolocation)
 - All external links are HTTPS, rel="nofollow" and target="_blank".
+- Easy to modify. 
+- You may need to add "T&C's Apply", "New players only", "Commercial content" texts or links to local gaming regulators depending on your site and target-GEO's.
 - The script can also be used as part of a custom Wordpress plugin or theme.
 */
 
