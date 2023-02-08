@@ -12,7 +12,7 @@ and link to local gambling helpline(s) AND/OR gamblingtherapy.org based on the u
 */
 
 function responsible_gambling_shortcode() {
-  $country = $_SERVER["HTTP_CF_IPCOUNTRY"];
+  $country = $_SERVER["HTTP_CF_IPCOUNTRY"]; // CloudFlare CF-IPCountry request header
 
 /* #################### NORTH AMERICA #################### */
 // United States = US
