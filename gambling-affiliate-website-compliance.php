@@ -13,7 +13,14 @@ and link to local gambling helpline(s) AND/OR gamblingtherapy.org based on the u
 
 function responsible_gambling_shortcode() {
   $country = $_SERVER["HTTP_CF_IPCOUNTRY"]; // CloudFlare CF-IPCountry request header
-
+/*
+  $country = $_SERVER["HTTP_X_AKAMAI_EDGE_CLIENT_COUNTRY"]; // Akamai
+  $country = $_SERVER["HTTP_FASTLY_COUNTRY"]; // Fastly
+  $country = $_SERVER["HTTP_X_CM_GEO_COUNTRY"]; // LimeLight Networks
+  $country = $_SERVER["HTTP_CLOUDFRONT_VIEWER_COUNTRY"]; Amazon Cloudfront
+  $country = $_SERVER["HTTP_X_GEO_COUNTRY"]; // Rackspace
+*/
+  
 /* #################### NORTH AMERICA #################### */
 // United States = US
 if ($country == "US") {
